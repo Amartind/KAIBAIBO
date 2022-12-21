@@ -15,7 +15,7 @@ var userChoice = prompt("what is your choice? r, p or s?");
 } else if (userChoice === "s") {
   userChoice = "scissors";
 } else {
-  prompt("Invalid entry");
+  alert("Invalid entry");
   resetGame();
 }
   
